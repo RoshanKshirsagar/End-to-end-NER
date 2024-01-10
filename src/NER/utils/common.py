@@ -2,7 +2,7 @@ import os
 
 from box.exceptions import BoxValueError
 import yaml
-from src.NER.logging import logger
+from NER.logging import logger
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
